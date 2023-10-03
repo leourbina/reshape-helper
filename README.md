@@ -1,4 +1,6 @@
-# Reshape Go helper ![](https://github.com/leourbina/reshape-helper/actions/workflows/ci.yml/badge.svg)
+# Reshape Go helper
+
+![Tests](https://github.com/leourbina/reshape-helper/actions/workflows/ci.yml/badge.svg)
 
 This is a Go helper library for the automated, zero-downtime schema migration tool [Reshape](https://github.com/fabianlindfors/reshape). To achieve zero-downtime migrations, Reshape requires that your application runs a simple query when it opens a connection to the database to select the right schema. This library automates that process with a simple method which will return the correct query for your application.
 
